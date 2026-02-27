@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-Then open the Remotion Studio URL in your browser (usually http://localhost:3000). Use the timeline to scrub through the **LuxselleDemo** composition.
+Then open **http://localhost:3000** in your browser. Remotion Studio will load; select the **LuxselleDemo** composition and use the timeline to scrub through the video.
 
 To render the full video to a file:
 
