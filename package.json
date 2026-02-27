@@ -1,0 +1,28 @@
+{
+  "name": "luxselle-demo-video",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx remotion studio remotion/index.ts",
+    "build": "npx remotion bundle remotion/index.ts --out-dir out/bundle",
+    "render": "npx remotion render remotion/index.ts LuxselleDemo out/luxselle-demo.mp4",
+    "still": "npx remotion still remotion/index.ts LuxselleDemo out/thumbnail.png --frame=100",
+    "capture-screenshots": "node scripts/capture-screenshots.mjs",
+    "postinstall": "node scripts/create-placeholder-screenshots.mjs"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@remotion/transitions": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.58.0",
+    "sharp": "^0.33.5",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}

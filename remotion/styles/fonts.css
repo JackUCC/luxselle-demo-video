@@ -1,0 +1,44 @@
+/* Inter: relative path for bundler (public/fonts at project root) */
+@font-face {
+  font-family: 'Inter';
+  src: url('../../public/fonts/Inter_24pt-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../../public/fonts/Inter_24pt-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../../public/fonts/Inter_24pt-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../../public/fonts/Inter_24pt-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --font-display: 'Ibarra Real Nova', Georgia, serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --lux-canvas: #FAF9F7;
+  --lux-surface: #FFFFFF;
+  --lux-text: #1A1A2E;
+  --lux-gold: #B8860B;
+  --lux-gold-light: #c3a363;
+  --lux-success: #10B981;
+  --lux-warning: #F59E0B;
+  --lux-danger: #EF4444;
+  --lux-accent-warm: #FBF8F3;
+}
